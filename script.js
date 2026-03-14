@@ -60,7 +60,7 @@ const differentials = {
 
 function findDifferential(){
 
-let symptom = document.getElementById("symptomInput").value.toLowerCase();
+let symptom = document.getElementById("symptomInput").value.trim().toLowerCase();
 
 let list = document.getElementById("resultList");
 
