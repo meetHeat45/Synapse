@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<title>Synapse Clinical</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>SYNAPSE CLINICAL</h1>
+
+<div class="box">
+
+<h2>Clinical Case of the Day</h2>
+
+<p id="caseText">Loading case...</p>
+
+<button onclick="showAnswer()">Reveal Answer</button>
+
+<p id="answerText"></p>
+
+</div>
+
+<div class="box">
+
+<h2>Differential Diagnosis Finder</h2>
+
+<input type="text" id="symptomInput" placeholder="Enter symptom">
+
+<button onclick="findDifferential()">Search</button>
+
+<ul id="resultList"></ul>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
